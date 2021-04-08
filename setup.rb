@@ -1,6 +1,6 @@
 ## Install two packages and modify the motd file
 package 'tree' do
-    action :install
+  action :install
 end
 
 ## If no action is specified, a default action for specified resource 
@@ -8,9 +8,9 @@ end
 package 'ntp' 
 
 file '/etc/motd' do
-    content 'This message was generated from chef recipe...'
+  content 'This message was generated from chef recipe...'
 end
 
 service 'ntp' do
-    action [:enable,:start]
+  action [:enable,:start]
 end

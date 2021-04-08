@@ -1,0 +1,1 @@
+default["moodle"]["sites"]["training.compatiblecare.com.au"] = { "port" => 80, "servername" => "training.compatiblecare.com.au", "serveradmin" => "admin@training.compatiblecare.com.au" }
